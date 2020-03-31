@@ -8,7 +8,7 @@
 component{
 	// THIS LOADS THE DSN CREATOR WHEN INSTALLING CONTENTBOX FOR THE FIRST TIME
 	// THIS CAN BE REMOVED AFTER INSTALLATION, USUALLY IT IS REMOVED BY THE INSTALLER
-	include "modules/contentbox-installer/includes/dsn_relocation.cfm";
+	
 
 	// Application properties, modify as you see fit
 	this.name 				= "ContentBox CMS";
@@ -46,7 +46,7 @@ component{
 	// LOAD THE DATASOURCE, EITHER FROM DISK OR ENGINE
 	loadDatasource();
 	// THE CONTENTBOX DATASOURCE NAME
-	this.datasource = "contentbox";
+	this.datasource = "SECA";
 	// ORM SETTINGS
 	this.ormEnabled = true;
 	this.ormSettings = {

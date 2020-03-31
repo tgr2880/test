@@ -16,7 +16,7 @@ component{
 			appName 					= "ContentBox Modular CMS",
 
 			//Development Settings
-			reinitPassword				= "@fwPassword@",
+			reinitPassword				= "BDF4D57BF13097EAAC90663F8F70A994",
 			handlersIndexAutoReload 	= false,
 
 			//Implicit Events
