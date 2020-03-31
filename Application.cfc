@@ -80,7 +80,7 @@ component{
 	// application start
 	public boolean function onApplicationStart(){
 		// Set a high timeout for any orm updates
-		setting requestTimeout="300";
+		setting requestTimeout="300"; 
 		application.cbBootstrap = new coldbox.system.Bootstrap( COLDBOX_CONFIG_FILE, COLDBOX_APP_ROOT_PATH, COLDBOX_APP_KEY, COLDBOX_APP_MAPPING );
 		application.cbBootstrap.loadColdbox();
 		return true;
