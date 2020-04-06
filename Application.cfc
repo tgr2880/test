@@ -43,7 +43,7 @@ component{
 	this.mappings[ "/contentbox" ] 			= COLDBOX_APP_ROOT_PATH & "modules/contentbox";
 	this.mappings[ "/cborm" ] 	 			= this.mappings[ "/contentbox" ] & "/modules/contentbox-deps/modules/cborm";
 
-	// LOAD THE DATASOURCE, EITHER FROM DISK OR ENGINE
+	// LOAD THE DATASOURCE, EITHER FROM DISK OR ENGINE. Change this. 
 	loadDatasource();
 	// THE CONTENTBOX DATASOURCE NAME
 	this.datasource = "SECA";
